@@ -52,7 +52,7 @@
 
    steps:
      - script:
-         name: get latest tag for deployment
+         name: get latest tag for deploymentss
          code: |
            export RELEASE_TAG=`tail $WERCKER_ROOT/generated_tag.txt`
            echo "Release tag: $RELEASE_TAG"
