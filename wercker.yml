@@ -45,7 +45,7 @@
          repository: devopscafe/tweet-app
          registry: https://registry.hub.docker.com
          working-dir: /
-         ports: 80 4000
+         ports: 80 4150
          cmd: nginx -g 'daemon off';
  deploy-dev:
    box: google/golang
